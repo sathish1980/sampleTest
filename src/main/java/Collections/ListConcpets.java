@@ -12,7 +12,7 @@ public class ListConcpets {
 
 	public void Listimplementation()
 	{
-		System.out.println(name);
+		//System.out.println(name);
 		for(String eachValue:name)
 		{
 			System.out.println(eachValue);
@@ -24,7 +24,7 @@ public class ListConcpets {
 
 		LinkedList<String> al = new LinkedList();
 		ArrayList<String> al1 = new ArrayList();
-		System.out.println(al);
+		//System.out.println(al);
 		// how to add
 		al.add("sathish");
 		al.add("kumar");
@@ -35,7 +35,7 @@ public class ListConcpets {
 		al1.add("java");
 		al1.add("sql");
 		al.addAll(al1);
-		System.out.println(al);
+		//System.out.println(al);
 		//System.out.println(al1);
 		System.out.println("*********************");
 		// REtrieve
@@ -62,7 +62,7 @@ public class ListConcpets {
 
 		// update
 		al.set(4, "SATHISH");
-		System.out.println(al);
+		//System.out.println(al);
 
 		//delete
 		al.removeFirst();
@@ -70,7 +70,7 @@ public class ListConcpets {
 		al.remove(1);
 		al.removeAll(al1);
 
-		System.out.println(al);
+		//System.out.println(al);
 
 		System.out.println(al.isEmpty());
 		System.out.println(al.contains("FITA"));
@@ -78,13 +78,13 @@ public class ListConcpets {
 		LinkedList<String> Al2=(LinkedList<String>) al.clone();
 		System.out.println(al.equals(Al2));
 		System.out.println(al.indexOf("R"));
-		System.out.println(al.reversed());
+		//System.out.println(al.reversed());
 		al.clear();
-		System.out.println(Al2);
-		System.out.println(al);
+		//System.out.println(Al2);
+		//System.out.println(al);
 
 		Collections.sort(al);
-		System.out.println(al);
+		//System.out.println(al);
 
 
 	}
